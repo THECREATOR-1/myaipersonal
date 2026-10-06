@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# Backend generated files
+backend/uploads/qrcodes/
+backend/uploads/receipts/
+
+# Local database
+database/data/
+
+# OS files
+.DS_Store
+Thumbs.db
